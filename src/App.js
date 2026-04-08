@@ -44,8 +44,7 @@ export default function App() {
   <option value="Yue">ゆえ</option>
 </select>
 
-    <h3 style={{ marginTop: 30 }}>よく使う文章</h3>
-    <h3 style={{ marginTop: 10, marginBottom: 10 }}></h3>
+    <h3 style={{ marginTop: 30 , marginBottom: 10}}>よく使う文章</h3>
 
 <div style={{
   display: "flex",
@@ -116,8 +115,8 @@ onMouseUp={(e) => e.target.style.transform = "scale(1)"}
 
 
     <h2 style={{ marginTop: 20, fontSize: 16 }}>
-  日本語
-</h2>
+    日本語
+    </h2>
 
      <div style={{
   backgroundColor: "#f9fafb",
@@ -131,7 +130,7 @@ onMouseUp={(e) => e.target.style.transform = "scale(1)"}
 
       
       <h2 style={{ marginTop: 20, fontSize: 16 }}>
-        英語
+      英語
       </h2>
 
       <p style={{
